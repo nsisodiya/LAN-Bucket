@@ -43,7 +43,7 @@ function createWindow() {
     });
     if (appConfig.mainWindow !== undefined) {
         mainWindow.on("ready-to-show", function () {
-            if (typeof splashWindow.close === "function") {
+            if (splashWindow !== undefined && typeof splashWindow.close === "function") {
                 splashWindow.close();//Close Splash
             }
             mainWindow.show();
