@@ -1,0 +1,27 @@
+{
+  "name": "lan-bucket",
+  "version": "1.0.0",
+  "description": "file sharing over LAN in simplest and quickest mannaer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsisodiya/LAN-Bucket.git"
+  },
+  "keywords": [
+    "react",
+    "electron",
+    "lan",
+    "file",
+    "transfer"
+  ],
+  "author": "Narendra Sisodiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsisodiya/LAN-Bucket/issues"
+  },
+  "homepage": "https://github.com/nsisodiya/LAN-Bucket#readme"
+}
