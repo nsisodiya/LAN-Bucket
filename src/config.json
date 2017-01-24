@@ -1,0 +1,21 @@
+{
+  "ApplicationQuitOnAllWindowClosed": {
+    "darwin": true,
+    "linux": true,
+    "win32": true
+  },
+  "mainWindow": {
+    "fullScreen": false,
+    "width": 800,
+    "height": 600,
+    "openDevTools": false,
+    "renderFilePath": "render/render.html"
+  },
+  "splashWindow": {
+    "fullScreen": false,
+    "renderFilePath": "render/splash/splash.html",
+    "width": 200,
+    "openDevTools": false,
+    "height": 60
+  }
+}

@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "package-mac": "electron-packager . --platform=darwin --arch=all --icon=src/assets/icons/mac/icon.icns --out=dist",
-    "package-linux": "electron-packager . --platform=linux --arch=all --icon=src/assets/icons/png/1024x1024.png --out=dist"
+    "package-mac": "electron-packager . --overwrite --icon=./src/assets/icons/icon.icns --platform=darwin --arch=all --out=dist",
+    "package-linux": "electron-packager . --overwrite --icon=./src/assets/icons/icon.png --platform=linux --arch=all --out=dist"
   },
   "repository": {
     "type": "git",
