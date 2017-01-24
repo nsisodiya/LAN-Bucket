@@ -2,7 +2,7 @@
   "name": "lan-bucket",
   "version": "1.0.0",
   "description": "file sharing over LAN in simplest and quickest mannaer.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
@@ -19,7 +19,6 @@
     "transfer"
   ],
   "author": "Narendra Sisodiya",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nsisodiya/LAN-Bucket/issues"
   },
