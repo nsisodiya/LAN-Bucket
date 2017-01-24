@@ -9,7 +9,7 @@
     "width": 800,
     "height": 600,
     "openDevTools": false,
-    "renderFilePath": "render/render.html"
+    "renderFilePath": "render/main/main.html"
   },
   "splashWindow": {
     "fullScreen": false,
