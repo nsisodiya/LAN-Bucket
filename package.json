@@ -1,11 +1,14 @@
 {
   "name": "lan-bucket",
+  "productName": "LAN Bucket app",
   "version": "1.0.0",
   "description": "file sharing over LAN in simplest and quickest mannaer.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "package-mac": "electron-packager . --platform=darwin --arch=all --icon=src/assets/icons/mac/icon.icns --out=dist",
+    "package-linux": "electron-packager . --platform=linux --arch=all --icon=src/assets/icons/png/1024x1024.png --out=dist"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
   },
   "homepage": "https://github.com/nsisodiya/LAN-Bucket#readme",
   "devDependencies": {
-    "electron": "1.4.15"
+    "electron": "1.4.15",
+    "electron-packager": "8.5.1"
   }
 }
