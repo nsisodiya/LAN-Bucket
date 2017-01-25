@@ -8,7 +8,7 @@
     "fullScreen": false,
     "width": 800,
     "height": 600,
-    "openDevTools": false,
+    "openDevTools": true,
     "renderFilePath": "render/main/main.html"
   },
   "splashWindow": {
@@ -17,5 +17,6 @@
     "width": 200,
     "openDevTools": false,
     "height": 60
-  }
+  },
+  "applicationPort": 50469
 }

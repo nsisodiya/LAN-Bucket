@@ -96,3 +96,6 @@ app.on("activate", function () {
         createWindow()
     }
 });
+
+//=== RUN SERVER =====
+require("./server/server");
