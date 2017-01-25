@@ -3,4 +3,5 @@ body {
     //-webkit-user-drag: none;
     cursor: default;
     -webkit-user-select: none;
+    font: caption;
 }
