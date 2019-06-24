@@ -13,3 +13,5 @@ var server = app.listen(appConfig.applicationPort, function () {
     console.log("Listening on port %s...", server.address().port);
 });
 
+
+require("./../utils/scanNetwork");
